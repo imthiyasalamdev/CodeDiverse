@@ -1,0 +1,53 @@
+.button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px 40px;
+
+    border: 1px solid red;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    color: white;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2{
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.buttons{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#black{
+    background-color: black;
+}

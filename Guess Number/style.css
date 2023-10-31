@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0c1810;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 50%;
+    width: 60%;
+    background: rgb(10, 55, 41);
+    padding: 10% 10%;
+
+
+}
+
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+form .guess{
+    margin: 10px 10px ;
+
+}
+
+form .guessField{
+    margin-bottom: 10px;
+    height: 45px;
+    width: 500px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+.guessField::placeholder{
+    color: white;
+    font-size: 25px;
+}
+
+form #submit{
+    margin-bottom: 10px;
+    height: 45px;
+    width: 500px;
+    font-size: 25px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+}
+
+.resultParas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resultParas .remainingGuess{
+    margin-bottom: 10px;
+}
+
+
+h1{
+    margin-bottom: 5%;
+}

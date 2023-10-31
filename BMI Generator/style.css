@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 123, 43);
+}
+
+.mainContainer{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin: 10% 10px;
+    color: white;
+
+    align-items: center;
+}
+
+
+
+form {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin: 3% 10px;
+    align-items: center;
+}
+
+h3{
+    margin: 20px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.height{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px ;
+    border: 2px solid black;
+}
+
+.weight{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px ;
+    border: 2px solid black;
+}
+
+.button{
+    width: 200px;
+    height: 35px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.fitCheck{
+    margin: 10px 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    min-height: 35px;
+    padding: 10px 10px ;
+    color: white;
+    background:black;
+    border: 2px solid white;
+}
+
+.results{
+    margin: 10px 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    min-height: 35px;
+    padding: 10px 10px ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: black;
+    border: 2px solid white;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
